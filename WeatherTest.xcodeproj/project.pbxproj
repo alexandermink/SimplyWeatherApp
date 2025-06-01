@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0931EA00E8777B31B2132ADF /* Pods_WeatherTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA49925501E4869C1B19B631 /* Pods_WeatherTest.framework */; };
 		967F50F32DE8EC4900D1D170 /* WeatherTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967F50F22DE8EC4900D1D170 /* WeatherTestApp.swift */; };
 		967F50F72DE8EC4B00D1D170 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 967F50F62DE8EC4B00D1D170 /* Assets.xcassets */; };
 		967F50FA2DE8EC4B00D1D170 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 967F50F92DE8EC4B00D1D170 /* Preview Assets.xcassets */; };
@@ -19,10 +18,12 @@
 		967F510B2DE93C4400D1D170 /* WeatherAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967F510A2DE93C4400D1D170 /* WeatherAPIError.swift */; };
 		967F51162DE9B79200D1D170 /* WeatherCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967F51152DE9B79200D1D170 /* WeatherCellView.swift */; };
 		967F51192DE9B85F00D1D170 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967F51182DE9B85F00D1D170 /* String.swift */; };
+		96C8187E2DEC6AE400173EEA /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 96C8187D2DEC6AE400173EEA /* Alamofire */; };
+		96C818802DEC6AE400173EEA /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 96C8187F2DEC6AE400173EEA /* AlamofireDynamic */; };
+		96C818832DEC6B2900173EEA /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 96C818822DEC6B2900173EEA /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6D8A79060E66EED620D7E98A /* Pods-WeatherTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherTest.release.xcconfig"; path = "Target Support Files/Pods-WeatherTest/Pods-WeatherTest.release.xcconfig"; sourceTree = "<group>"; };
 		967F50EF2DE8EC4900D1D170 /* WeatherTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		967F50F22DE8EC4900D1D170 /* WeatherTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTestApp.swift; sourceTree = "<group>"; };
 		967F50F62DE8EC4B00D1D170 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -35,8 +36,6 @@
 		967F510A2DE93C4400D1D170 /* WeatherAPIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPIError.swift; sourceTree = "<group>"; };
 		967F51152DE9B79200D1D170 /* WeatherCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCellView.swift; sourceTree = "<group>"; };
 		967F51182DE9B85F00D1D170 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
-		D8B6F8FF82670741A66A69AE /* Pods-WeatherTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherTest.debug.xcconfig"; path = "Target Support Files/Pods-WeatherTest/Pods-WeatherTest.debug.xcconfig"; sourceTree = "<group>"; };
-		DA49925501E4869C1B19B631 /* Pods_WeatherTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,37 +43,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0931EA00E8777B31B2132ADF /* Pods_WeatherTest.framework in Frameworks */,
+				96C818832DEC6B2900173EEA /* Kingfisher in Frameworks */,
+				96C8187E2DEC6AE400173EEA /* Alamofire in Frameworks */,
+				96C818802DEC6AE400173EEA /* AlamofireDynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4A03B86B84059A5AB1709083 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				DA49925501E4869C1B19B631 /* Pods_WeatherTest.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		93A01F292970DD76B397CCDD /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D8B6F8FF82670741A66A69AE /* Pods-WeatherTest.debug.xcconfig */,
-				6D8A79060E66EED620D7E98A /* Pods-WeatherTest.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		967F50E62DE8EC4900D1D170 = {
 			isa = PBXGroup;
 			children = (
 				967F50F12DE8EC4900D1D170 /* WeatherTest */,
 				967F50F02DE8EC4900D1D170 /* Products */,
-				93A01F292970DD76B397CCDD /* Pods */,
-				4A03B86B84059A5AB1709083 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -199,17 +181,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 967F50FD2DE8EC4B00D1D170 /* Build configuration list for PBXNativeTarget "WeatherTest" */;
 			buildPhases = (
-				3D27552799CA73CBC0A98620 /* [CP] Check Pods Manifest.lock */,
 				967F50EB2DE8EC4900D1D170 /* Sources */,
 				967F50EC2DE8EC4900D1D170 /* Frameworks */,
 				967F50ED2DE8EC4900D1D170 /* Resources */,
-				D71F220C7824584A79811B92 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = WeatherTest;
+			packageProductDependencies = (
+				96C8187D2DEC6AE400173EEA /* Alamofire */,
+				96C8187F2DEC6AE400173EEA /* AlamofireDynamic */,
+				96C818822DEC6B2900173EEA /* Kingfisher */,
+			);
 			productName = WeatherTest;
 			productReference = 967F50EF2DE8EC4900D1D170 /* WeatherTest.app */;
 			productType = "com.apple.product-type.application";
@@ -238,6 +223,10 @@
 				Base,
 			);
 			mainGroup = 967F50E62DE8EC4900D1D170;
+			packageReferences = (
+				96C8187C2DEC6AE400173EEA /* XCRemoteSwiftPackageReference "Alamofire" */,
+				96C818812DEC6B2900173EEA /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 967F50F02DE8EC4900D1D170 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,48 +247,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		3D27552799CA73CBC0A98620 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-WeatherTest-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D71F220C7824584A79811B92 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WeatherTest/Pods-WeatherTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WeatherTest/Pods-WeatherTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WeatherTest/Pods-WeatherTest-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		967F50EB2DE8EC4900D1D170 /* Sources */ = {
@@ -442,7 +389,6 @@
 		};
 		967F50FE2DE8EC4B00D1D170 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8B6F8FF82670741A66A69AE /* Pods-WeatherTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,8 +402,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -466,15 +411,16 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.goldencrowndev.WeatherTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		967F50FF2DE8EC4B00D1D170 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D8A79060E66EED620D7E98A /* Pods-WeatherTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,8 +434,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -498,9 +443,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.goldencrowndev.WeatherTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -526,6 +473,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		96C8187C2DEC6AE400173EEA /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+		96C818812DEC6B2900173EEA /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.3.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		96C8187D2DEC6AE400173EEA /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 96C8187C2DEC6AE400173EEA /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		96C8187F2DEC6AE400173EEA /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 96C8187C2DEC6AE400173EEA /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+		96C818822DEC6B2900173EEA /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 96C818812DEC6B2900173EEA /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 967F50E72DE8EC4900D1D170 /* Project object */;
 }

@@ -5,6 +5,7 @@
 //  Created by Александр Минк on 29.05.2025.
 //
 
+import Foundation
 import Alamofire
 
 final class WeatherAPI {
